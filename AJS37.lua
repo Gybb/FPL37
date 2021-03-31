@@ -223,7 +223,7 @@ defineToggleSwitch("WEAPON_RELEASE_COVER", 2, 3302, 260, "Vapenpanel", "Weapon E
 definePushButton("WEAPON_RELEASE", 2, 3303, 261, "Vapenpanel", "Weapon Emergency Release Button")  --OK				WEAPON_SYSTEM-2
 defineToggleSwitch("TANK_RELEASE_COVER", 2, 3402, 262, "Vapenpanel", "External Tank Release Cover")  --OK			WEAPON_SYSTEM-2
 definePushButton("TANK_RELEASE", 2, 3320, 263, "Vapenpanel", "External Tank Release Button")  --OK				WEAPON_SYSTEM-2
-defineTumb("WEAPON_SELECT", 2, 3304, 264, 0.1, {0.0, 0.5}, nil, false, "Vapenpanel", "Weapon Selector Knob")  --OK		WEAPON_SYSTEM-2
+defineTumb("WEAPON_SELECT", 2, 3304, 264, 0.1, {0.0, 0.5}, nil, true, "Vapenpanel", "Weapon Selector Knob")  --OK		WEAPON_SYSTEM-2
 defineTumb("WEAPON_INTERVAL", 2, 3305, 265, 0.1, {0.0, 1.0}, nil, false, "Vapenpanel", "Weapon Interval Selector Mode Knob")--OKWEAPON_SYSTEM-2
 defineToggleSwitch("WEAPON_REL_MODE", 2, 3306, 266, "Vapenpanel", "Weapon Release Mode Switch")  --OK				WEAPON_SYSTEM-2
 defineToggleSwitch("RB_BK_REL_MODE",2, 3307, 267, "Vapenpanel", "RB-04/RB-15/BK Release Mode Switch")  --OK			WEAPON_SYSTEM-2
