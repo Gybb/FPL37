@@ -287,9 +287,9 @@ defineToggleSwitch("CB_EJECTION_SYSTEM", 18, 3909, 306, "Säkringspanel", "CB Ej
 defineToggleSwitch("CB_ENGINE", 18, 3910, 307, "Säkringspanel", "CB Engine")  --OK						ENGINEPANEL-18
 
 --[[--Autopilot--]]--
-defineToggleSwitch("SPAK", 22, 3301, 401,  "Autopilot",  "SPAK")  --OK 								FLIGHTDATAUNIT-22
-defineToggleSwitch("ATTITUDE_HOLD", 22, 3302, 402, "Autopilot", "Attitude Hold")  --OK 						FLIGHTDATAUNIT-22
-defineToggleSwitch("ALTITUDE_HOLD", 22, 3303, 403, "Autopilot", "Altitude Hold")  --OK 						FLIGHTDATAUNIT-22
+defineToggleSwitchToggleOnly("SPAK", 22, 3301, 401,  "Autopilot",  "SPAK")  --OK 								FLIGHTDATAUNIT-22
+defineToggleSwitchToggleOnly("ATTITUDE_HOLD", 22, 3302, 402, "Autopilot", "Attitude Hold")  --OK 						FLIGHTDATAUNIT-22
+defineToggleSwitchToggleOnly("ALTITUDE_HOLD", 22, 3303, 403, "Autopilot", "Altitude Hold")  --OK 						FLIGHTDATAUNIT-22
 defineIndicatorLight("SPAK_LAMP", 401, "Indikeringslampor", "SPAK Lamp")
 defineIndicatorLight("ATT_LAMP", 402, "Indikeringslampor", "ATT Lamp")
 defineIndicatorLight("HOJD_LAMP", 403, "Indikeringslampor", "HOJD Lamp")
