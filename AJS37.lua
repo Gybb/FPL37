@@ -690,5 +690,8 @@ end
 
  defineString("AJS37_DEST_IND_DISPLAY_H", getAJS37DestIndicatorH, 1, "Destinationsindikator", "DestinationsindikatorH")
 
+------------------------------------------ For CK-light to turn off displays ---------------------------------------------
+defineIndicatorLight("CK-lampa", 428, "Indikeringstablå", "CK-lampa")
+--------------------------------------------------------------------------------------------------------------------------
 
 BIOS.protocol.endModule()
