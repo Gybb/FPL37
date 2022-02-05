@@ -690,5 +690,6 @@ end
 
  defineString("AJS37_DEST_IND_DISPLAY_H", getAJS37DestIndicatorH, 1, "Destinationsindikator", "DestinationsindikatorH")
 
+defineFloat("PITCH_TRIM", 148, {0, 1}, "VänsterPanel", "PitchTrim")
 
 BIOS.protocol.endModule()
