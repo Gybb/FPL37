@@ -347,11 +347,11 @@ defineFloat("DISTANCE_INDICATOR", 142, {0, 1}, "Instrumentpanel", "Distansindika
 defineFloat("DISTANCE_INDICATOR_KM_MIL", 143, {0, 1}, "Instrumentpanel", "Distansindikator KM/MIL") --tested Better as indicatorlight?
 defineFloat("FUEL_LEVEL", 144, {0, 1}, "Instrumentpanel", "Fuel Level")  --OK
 defineFloat("FUEL_NEEDED", 145, {0, 1}, "Instrumentpanel", "Fuel Needed")  --OK
-defineFloat("ENGINE_TEMP", 146, {0, 1}, "Instrumentpanel", "Engine Temp")  --OK
-defineFloat("ENGINE_NOZZLE", 147, {0, 1}, "Instrumentpanel", "Engine Nozzle")  --OK
+defineFloat("ENGINE_TEMP", 146, {0, 1}, "HögerPanel", "Engine Temp")  --OK
+defineFloat("ENGINE_NOZZLE", 147, {0, 1}, "HögerPanel", "Engine Nozzle")  --OK
 --148 Unknown
-defineFloat("CABINE_PRESSURE", 149, {0, 1}, "Instrumentpanel", "Cabin Pressure")  --OK 
-defineFloat("BRAKE_PRESSURE", 150, {0, 1}, "Instrumentpanel", "Brake Pressure")  --OK 
+defineFloat("CABINE_PRESSURE", 149, {0, 1}, "VänsterPanel", "Cabin Pressure")  --OK 
+defineFloat("BRAKE_PRESSURE", 150, {0, 1}, "VänsterPanel", "Brake Pressure")  --OK 
 
 --[[--CentralIndikator--]]--
 ------------------------------------------------------------------------------
