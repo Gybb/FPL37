@@ -349,9 +349,10 @@ defineFloat("FUEL_LEVEL", 144, {0, 1}, "Instrumentpanel", "Fuel Level")  --OK
 defineFloat("FUEL_NEEDED", 145, {0, 1}, "Instrumentpanel", "Fuel Needed")  --OK
 defineFloat("ENGINE_TEMP", 146, {0, 1}, "HögerPanel", "Engine Temp")  --OK
 defineFloat("ENGINE_NOZZLE", 147, {0, 1}, "HögerPanel", "Engine Nozzle")  --OK
---148 Unknown
+--148 Oxygen_level HögerPanel
 defineFloat("CABINE_PRESSURE", 149, {0, 1}, "VänsterPanel", "Cabin Pressure")  --OK 
 defineFloat("BRAKE_PRESSURE", 150, {0, 1}, "VänsterPanel", "Brake Pressure")  --OK 
+--151 Pitch Trim? VänsterPanel
 
 --[[--CentralIndikator--]]--
 ------------------------------------------------------------------------------
@@ -690,6 +691,7 @@ end
 
  defineString("AJS37_DEST_IND_DISPLAY_H", getAJS37DestIndicatorH, 1, "Destinationsindikator", "DestinationsindikatorH")
 
-defineFloat("PITCH_TRIM", 148, {0, 1}, "VänsterPanel", "PitchTrim")
+defineFloat("OXYGEN_LEVEL", 148, {0, 1}, "HögerPanel", "OxygenLevel")
+defineFloat("PITCH_TRIM", 151, {0, 1}, "VänsterPanel", "PitchTrim")
 
 BIOS.protocol.endModule()
