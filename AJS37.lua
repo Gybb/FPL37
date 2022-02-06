@@ -692,6 +692,6 @@ end
  defineString("AJS37_DEST_IND_DISPLAY_H", getAJS37DestIndicatorH, 1, "Destinationsindikator", "DestinationsindikatorH")
 
 defineFloat("OXYGEN_LEVEL", 148, {0, 1}, "HögerPanel", "OxygenLevel")
-defineFloat("PITCH_TRIM", 151, {0, 1}, "VänsterPanel", "PitchTrim")
+defineFloat("PITCH_TRIM", 151, {-1, 1}, "VänsterPanel", "PitchTrim")
 
 BIOS.protocol.endModule()
