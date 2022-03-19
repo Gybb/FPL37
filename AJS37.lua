@@ -693,5 +693,6 @@ end
 
 defineFloat("OXYGEN_LEVEL", 148, {0, 1}, "HögerPanel", "OxygenLevel")
 defineFloat("PITCH_TRIM", 151, {1, -1}, "VänsterPanel", "PitchTrim")
+definePushButton("ALTITUDE_STD", 22, 3715, 119, "Instrumentpanel", "Altitude STD")
 --update
 BIOS.protocol.endModule()
