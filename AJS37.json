@@ -2324,6 +2324,36 @@
                                                                                                     "type": "integer"
                                                                                          } ]
                                                                      },
+                                                     "ALTITUDE_STD": {
+                                                                                 "api_variant": "momentary_last_position",
+                                                                                    "category": "Instrumentpanel",
+                                                                                "control_type": "selector",
+                                                                                 "description": "Altitude STD",
+                                                                                  "identifier": "ALTITUDE_STD",
+                                                                                      "inputs": [ {
+                                                                                                    "description": "switch to previous or next state",
+                                                                                                      "interface": "fixed_step"
+                                                                                                }, {
+                                                                                                    "description": "set position",
+                                                                                                      "interface": "set_state",
+                                                                                                      "max_value": 1
+                                                                                                }, {
+                                                                                                       "argument": "TOGGLE",
+                                                                                                    "description": "Toggle switch state",
+                                                                                                      "interface": "action"
+                                                                                                } ],
+                                                                         "momentary_positions": "none",
+                                                                                     "outputs": [ {
+                                                                                                        "address": 18068,
+                                                                                                    "description": "selector position",
+                                                                                                           "mask": 256,
+                                                                                                      "max_value": 1,
+                                                                                                       "shift_by": 8,
+                                                                                                         "suffix": "",
+                                                                                                           "type": "integer"
+                                                                                                } ],
+                                                                            "physical_variant": "push_button"
+                                                                     },
                                                    "ALTITUDE_VALUE": {
                                                                              "category": "Instrumentpanel",
                                                                          "control_type": "metadata",
